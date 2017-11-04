@@ -5,3 +5,7 @@ the BEST discord lib
 ```batch
 :: this is not the library you're looking for
 ```
+
+# Social
+
+- [Discord](https://discord.gg/Fhaa72f)
