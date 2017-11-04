@@ -1,4 +1,4 @@
-call ..\Config\commands.bat
+call:trigger %1 %2
 
 :trigger :: Arguments = (eventName, eventInfo)
 if %~1 == message call:message "%~1"
