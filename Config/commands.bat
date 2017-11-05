@@ -1,11 +1,13 @@
+if "%~1" neq "" call:%~1
+
 :help
-call:sendMessage "Commands: $help, $ping, $info"
+call s.bat sendMessage "Commands: $help, $ping, $info"
 goto:eof
 
 :ping
-call:sendMessage "Pong"
+call s.bat sendMessage "Pong"
 goto:eof
 
 :info
-call:sendMessage "Made using `discord.bat` (Yes, it's real)"
+call s.bat sendMessage "Made using `discord.bat` (Yes, it's real)"
 goto:eof
