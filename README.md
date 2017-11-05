@@ -2,7 +2,7 @@
 the BEST discord lib
 
 # Examples
-### Config/config.bat
+## Config/config.bat
 ```batch
 set bot.token=token_here
 set bot.id=123456789012345678
@@ -11,7 +11,7 @@ set bot.playing=Hello World!
 ```
 Currently `bot.playing` and `bot.id` aren't used for anything.
 
-### Config/commands.bat
+## Config/commands.bat
 ```batch
 if %1 neq "" call:%~1
 goto exit
