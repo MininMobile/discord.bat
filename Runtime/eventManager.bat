@@ -9,7 +9,9 @@ if %~1 == message call:message "%~2"
 GOTO:EOF
 
 :message :: Arguments = (messageContent)
-echo Recieved Message: %~1
+if %events.message.notification% == 1 (
+    echo Recieved Message: %~1
+)
 
 SET firstChar=%~1
 SET firstChar=!firstChar:~0,1!
