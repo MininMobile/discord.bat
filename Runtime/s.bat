@@ -5,5 +5,9 @@ GOTO exit
 echo send%~1>update.dat
 goto:eof
 
+:dmAuthor
+echo dm%~1>update.dat
+goto:eof
+
 :exit
 exit /b
