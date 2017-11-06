@@ -2,7 +2,7 @@ if %1 neq "" call:%~1
 goto exit
 
 :help
-call s.bat sendMessage "Commands: $help, $ping, $info"
+call s.bat dmAuthor "Commands: $help, $ping, $info"
 goto:eof
 
 :ping
