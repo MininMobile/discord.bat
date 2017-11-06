@@ -1,6 +1,7 @@
 @echo off
 SETLOCAL EnableDelayedExpansion
 call ..\Config\config.bat
+call ..\Config\global.bat
 call:trigger %1 %2
 goto exit
 
