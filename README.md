@@ -47,4 +47,4 @@ Get references and tutorials from our [wiki](https://github.com/MininMobile/disc
 
 Start making a bot in discord.bat with the [tutorial](https://github.com/MininMobile/discord.bat/wiki/Tutorial-1:-Downloading-the-Repository).
 
-Talk with us and get help with making your own bot in discord.bat in our [Discord](https://discord.gg/Fhaa72f) server.
+Talk with us and get help with making your own bot in discord.bat in our ~~[Discord](https://discord.gg/Fhaa72f)~~ (dead link) server.
